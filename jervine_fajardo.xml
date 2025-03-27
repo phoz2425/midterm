@@ -3,8 +3,7 @@
     <user>
         <name>LeBron James</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Lakers</section>
+        <yearLevel>3-Lakers</yearLevel>
         <adviser>JJ Redick</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://a.espncdn.com/i/headshots/nba/players/full/1966.png</photo>
@@ -12,17 +11,15 @@
     <user>
         <name>Stephen Curry</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Warriors</section>
-        <adviser> Steve Kerr</adviser>
+        <yearLevel>3-Warriors</yearLevel>
+        <adviser>Steve Kerr</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3975.png</photo>
     </user>
     <user>
         <name>Kevin Durant</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Suns</section>
+        <yearLevel>3-Suns</yearLevel>
         <adviser>Mike Budenholzer</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://cdn.nba.com/headshots/nba/latest/1040x760/201142.png</photo>
@@ -30,8 +27,7 @@
     <user>
         <name>Giannis Antetokounmpo</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Bucks</section>
+        <yearLevel>3-Bucks</yearLevel>
         <adviser>Doc Rivers</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://cdn.nba.com/headshots/nba/latest/1040x760/203507.png</photo>
@@ -39,8 +35,7 @@
     <user>
         <name>Luka Dončić</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Lakers</section>
+        <yearLevel>3-Lakers</yearLevel>
         <adviser>JJ Redick</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://cdn.nba.com/headshots/nba/latest/1040x760/1629029.png</photo>
@@ -48,45 +43,40 @@
     <user>
         <name>Kawhi Leonard</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Clippers</section>
-        <adviser> Ty Lue</adviser>
+        <yearLevel>3-Clippers</yearLevel>
+        <adviser>Ty Lue</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://cdn.nba.com/headshots/nba/latest/1040x760/202695.png</photo>
     </user>
     <user>
         <name>James Harden</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Clippers</section>
-        <adviser> Ty Lue</adviser>
+        <yearLevel>3-Clippers</yearLevel>
+        <adviser>Ty Lue</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://cdn.nba.com/headshots/nba/latest/1040x760/201935.png</photo>
     </user>
     <user>
         <name>Jayson Tatum</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Celtics</section>
-        <adviser> Brad Stevens</adviser>
+        <yearLevel>3-Celtics</yearLevel>
+        <adviser>Brad Stevens</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4065648.png</photo>
     </user>
     <user>
         <name>Joel Embiid</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>76ers</section>
-        <adviser> Nick Nurse</adviser>
+        <yearLevel>3-76ers</yearLevel>
+        <adviser>Nick Nurse</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://cdn.nba.com/headshots/nba/latest/1040x760/203954.png</photo>
     </user>
     <user>
         <name>Damian Lillard</name>
         <course>BSIT</course>
-        <yearLevel>3-</yearLevel>
-        <section>Bucks</section>
-        <adviser> Doc Rivers</adviser>
+        <yearLevel>3-Bucks</yearLevel>
+        <adviser>Doc Rivers</adviser>
         <schoolYear>2025-2026</schoolYear>
         <photo>https://cdn.nba.com/headshots/nba/latest/1040x760/203081.png</photo>
     </user>
