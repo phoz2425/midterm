@@ -40,9 +40,9 @@
     <div class="container" id="library-users"></div>
 
     <script>
-        // Function to load XML file
+        
         function loadXML() {
-            fetch('jervine_fajardo.xml')  // Make sure this file is in the same directory
+            fetch('jervine_fajardo.xml') 
                 .then(response => response.text())
                 .then(str => {
                     const parser = new DOMParser();
@@ -52,7 +52,7 @@
                 .catch(error => console.error("Error loading XML:", error));
         }
 
-        // Function to display users
+        
         function displayUsers(xmlDoc) {
             const users = xmlDoc.getElementsByTagName("user");
             const container = document.getElementById("library-users");
@@ -83,7 +83,7 @@
             }
         }
 
-        // Load XML on page load
+       
         window.onload = loadXML;
     </script>
 </body>
