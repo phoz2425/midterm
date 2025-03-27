@@ -8,6 +8,8 @@
         body {
             font-family: Arial, sans-serif;
             text-align: center;
+            background: #f1f1f1;
+            margin: 20px;
         }
         .container {
             display: flex;
@@ -16,21 +18,28 @@
             gap: 15px;
         }
         .card {
-            border: 3px solid #333;
-            padding: 10px;
-            width: 250px;
+            border: 2px solid #333;
+            padding: 15px;
+            width: 260px;
             text-align: left;
-            background: #f9f9f9;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
         }
         .card img {
-            width: 50px;
-            height: 50px;
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
+            border: 2px solid #ccc;
         }
         .card-header {
             display: flex;
             align-items: center;
             gap: 10px;
+            margin-bottom: 10px;
+        }
+        h1, h2 {
+            color: #333;
         }
     </style>
 </head>
@@ -40,7 +49,6 @@
     <div class="container" id="library-users"></div>
 
     <script>
-        
         function loadXML() {
             fetch('jervine_fajardo.xml') 
                 .then(response => response.text())
@@ -52,7 +60,6 @@
                 .catch(error => console.error("Error loading XML:", error));
         }
 
-        
         function displayUsers(xmlDoc) {
             const users = xmlDoc.getElementsByTagName("user");
             const container = document.getElementById("library-users");
@@ -60,8 +67,7 @@
             for (let i = 0; i < users.length; i++) {
                 const name = users[i].getElementsByTagName("name")[0].textContent;
                 const course = users[i].getElementsByTagName("course")[0].textContent;
-                const year = users[i].getElementsByTagName("yearLevel")[0].textContent;
-                const section = users[i].getElementsByTagName("section")[0].textContent;
+                const yearLevel = users[i].getElementsByTagName("yearLevel")[0].textContent;
                 const adviser = users[i].getElementsByTagName("adviser")[0].textContent;
                 const schoolYear = users[i].getElementsByTagName("schoolYear")[0].textContent;
                 const photo = users[i].getElementsByTagName("photo")[0].textContent;
@@ -74,7 +80,7 @@
                         <strong>${name}</strong>
                     </div>
                     <p><strong>Course:</strong> ${course}</p>
-                    <p><strong>Year Level / Section:</strong> ${year}${section}</p>
+                    <p><strong>Year Level:</strong> ${yearLevel}</p>
                     <p><strong>Adviser:</strong> ${adviser}</p>
                     <p><strong>School Year:</strong> ${schoolYear}</p>
                 `;
@@ -83,7 +89,6 @@
             }
         }
 
-       
         window.onload = loadXML;
     </script>
 </body>
