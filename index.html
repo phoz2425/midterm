@@ -65,7 +65,6 @@
             color: #333;
         }
         
-    
         .loading-container {
             display: flex;
             justify-content: center;
@@ -106,7 +105,12 @@
             setTimeout(() => {
                 document.getElementById("loading").style.display = "none";
                 fetch('jervine_fajardo.xml') 
-                    .then(response => response.text())
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error("Failed to load XML file.");
+                        }
+                        return response.text();
+                    })
                     .then(str => {
                         const parser = new DOMParser();
                         const xmlDoc = parser.parseFromString(str, "text/xml");
@@ -123,8 +127,7 @@
             for (let i = 0; i < users.length; i++) {
                 const name = users[i].getElementsByTagName("name")[0].textContent;
                 const course = users[i].getElementsByTagName("course")[0].textContent;
-                const year = users[i].getElementsByTagName("yearLevel")[0].textContent;
-                const section = users[i].getElementsByTagName("section")[0].textContent;
+                const yearLevel = users[i].getElementsByTagName("yearLevel")[0].textContent;
                 const adviser = users[i].getElementsByTagName("adviser")[0].textContent;
                 const schoolYear = users[i].getElementsByTagName("schoolYear")[0].textContent;
                 const photo = users[i].getElementsByTagName("photo")[0].textContent;
@@ -137,7 +140,7 @@
                         <strong>${name}</strong>
                     </div>
                     <p><strong>Course:</strong> ${course}</p>
-                    <p><strong>Year Level / Section:</strong> ${year}-${section}</p>
+                    <p><strong>Year Level:</strong> ${yearLevel}</p>
                     <p><strong>Adviser:</strong> ${adviser}</p>
                     <p><strong>School Year:</strong> ${schoolYear}</p>
                 `;
