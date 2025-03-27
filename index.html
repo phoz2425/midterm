@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Colleges Library Users</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .card {
+            border: 3px solid #333;
+            padding: 10px;
+            width: 250px;
+            text-align: left;
+            background: #f9f9f9;
+        }
+        .card img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ABC Colleges</h1>
+    <h2>Library Users</h2>
+    <div class="container" id="library-users"></div>
+
+    <script>
+        // Function to load XML file
+        function loadXML() {
+            fetch('juan_dela_cruz.xml')  // Make sure this file is in the same directory
+                .then(response => response.text())
+                .then(str => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(str, "text/xml");
+                    displayUsers(xmlDoc);
+                })
+                .catch(error => console.error("Error loading XML:", error));
+        }
+
+        // Function to display users
+        function displayUsers(xmlDoc) {
+            const users = xmlDoc.getElementsByTagName("user");
+            const container = document.getElementById("library-users");
+
+            for (let i = 0; i < users.length; i++) {
+                const name = users[i].getElementsByTagName("name")[0].textContent;
+                const course = users[i].getElementsByTagName("course")[0].textContent;
+                const year = users[i].getElementsByTagName("yearLevel")[0].textContent;
+                const section = users[i].getElementsByTagName("section")[0].textContent;
+                const adviser = users[i].getElementsByTagName("adviser")[0].textContent;
+                const schoolYear = users[i].getElementsByTagName("schoolYear")[0].textContent;
+                const photo = users[i].getElementsByTagName("photo")[0].textContent;
+
+                const userCard = document.createElement("div");
+                userCard.classList.add("card");
+                userCard.innerHTML = `
+                    <div class="card-header">
+                        <img src="${photo}" alt="User Photo">
+                        <strong>${name}</strong>
+                    </div>
+                    <p><strong>Course:</strong> ${course}</p>
+                    <p><strong>Year Level / Section:</strong> ${year}${section}</p>
+                    <p><strong>Adviser:</strong> ${adviser}</p>
+                    <p><strong>School Year:</strong> ${schoolYear}</p>
+                `;
+
+                container.appendChild(userCard);
+            }
+        }
+
+        // Load XML on page load
+        window.onload = loadXML;
+    </script>
+</body>
+</html>
