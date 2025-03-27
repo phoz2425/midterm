@@ -35,14 +35,14 @@
     </style>
 </head>
 <body>
-    <h1>ABC Colleges</h1>
+    <h1>NBA Colleges</h1>
     <h2>Library Users</h2>
     <div class="container" id="library-users"></div>
 
     <script>
         // Function to load XML file
         function loadXML() {
-            fetch('juan_dela_cruz.xml')  // Make sure this file is in the same directory
+            fetch('nba_players.xml')  // Make sure this file is in the same directory
                 .then(response => response.text())
                 .then(str => {
                     const parser = new DOMParser();
