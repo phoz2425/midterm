@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+    <user>
+        <name>Juan Dela Cruz</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Maria Santos</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Carlos Garcia</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Ana Mendoza</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Pedro Cruz</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Elena Reyes</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Rafael Torres</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Isabel Lopez</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Daniel Ramos</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+    <user>
+        <name>Sophia Fernandez</name>
+        <course>BSIT</course>
+        <yearLevel>3</yearLevel>
+        <section>3bg2</section>
+        <adviser>Mr. Ramon Dela Cruz</adviser>
+        <schoolYear>2025-2026</schoolYear>
+        <photo>https://via.placeholder.com/50</photo>
+    </user>
+</users>
