@@ -3,7 +3,7 @@
     <user>
         <name>LeBron James</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Lakers</section>
         <adviser>JJ Redick</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -12,7 +12,7 @@
     <user>
         <name>Stephen Curry</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Warriors</section>
         <adviser> Steve Kerr</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -21,7 +21,7 @@
     <user>
         <name>Kevin Durant</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Suns</section>
         <adviser>Mike Budenholzer</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -30,7 +30,7 @@
     <user>
         <name>Giannis Antetokounmpo</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Bucks</section>
         <adviser>Doc Rivers</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -39,7 +39,7 @@
     <user>
         <name>Luka Dončić</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Lakers</section>
         <adviser>JJ Redick</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -48,7 +48,7 @@
     <user>
         <name>Kawhi Leonard</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Clippers</section>
         <adviser> Ty Lue</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -57,7 +57,7 @@
     <user>
         <name>James Harden</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Clippers</section>
         <adviser> Ty Lue</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -66,7 +66,7 @@
     <user>
         <name>Jayson Tatum</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Celtics</section>
         <adviser> Brad Stevens</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -75,7 +75,7 @@
     <user>
         <name>Joel Embiid</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>76ers</section>
         <adviser> Nick Nurse</adviser>
         <schoolYear>2025-2026</schoolYear>
@@ -84,7 +84,7 @@
     <user>
         <name>Damian Lillard</name>
         <course>BSIT</course>
-        <yearLevel>3</yearLevel>
+        <yearLevel>3-</yearLevel>
         <section>Bucks</section>
         <adviser> Doc Rivers</adviser>
         <schoolYear>2025-2026</schoolYear>
